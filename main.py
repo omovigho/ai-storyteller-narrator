@@ -5,7 +5,7 @@ import os
 import requests
 import streamlit as st
 
-# --- Setup ---
+# Get API key here
 openai.api_key = os.getenv("OPENAI_API_KEY")
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 
